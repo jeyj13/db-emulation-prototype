@@ -1,0 +1,9 @@
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\bin\Debug\db-emulation-prototype.exe.config
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\bin\Debug\db-emulation-prototype.exe
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\bin\Debug\db-emulation-prototype.pdb
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\obj\Debug\db-emulation-prototype.csprojResolveAssemblyReference.cache
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\obj\Debug\db_emulation_prototype.Form1.resources
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\obj\Debug\db_emulation_prototype.Properties.Resources.resources
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\obj\Debug\db-emulation-prototype.csproj.GenerateResource.Cache
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\obj\Debug\db-emulation-prototype.exe
+c:\users\jey\documents\visual studio 2015\Projects\db-emulation-prototype\db-emulation-prototype\obj\Debug\db-emulation-prototype.pdb
