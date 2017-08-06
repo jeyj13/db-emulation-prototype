@@ -28,7 +28,19 @@ namespace db_emulation_prototype
 
         }
 
-
+        public void read_data ()
+        {
+            int counter = 0;
+            string line;
+            System.IO.StreamReader filein =
+            new System.IO.StreamReader("c:/users/jey/documents/visual studio 2015/Projects/db-emulation-prototype/db-emulation-prototype/db.txt");
+            while ((line = filein.ReadLine()) != null)
+            {
+                lstOut.Items.Add(line);
+                counter++;
+            }
+            filein.Close();
+        }
 
         public void save_data(string [] lines)
         {
