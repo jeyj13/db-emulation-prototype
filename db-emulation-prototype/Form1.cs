@@ -20,9 +20,10 @@ namespace db_emulation_prototype
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            string[] savelines = new string[3];
+            string[] savelines = new string[4];
             savelines[1] = txtName.Text;
             savelines[2] = txtInfo1.Text;
+            savelines[3] = " ";
             save_data(savelines);
 
         }
