@@ -79,6 +79,12 @@ namespace db_emulation_prototype
                 fileout.Close();
             }
         }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            lstOut.Items.Clear();
+            read_data();
+        }
     }
 
 }
