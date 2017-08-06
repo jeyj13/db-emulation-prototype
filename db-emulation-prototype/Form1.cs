@@ -52,8 +52,8 @@ namespace db_emulation_prototype
                 }
             }
             filein.Close();
-            using (System.IO.StreamWriter fileout =
-        new System.IO.StreamWriter("c:/users/jey/documents/visual studio 2015/Projects/db-emulation-prototype/db-emulation-prototype/db.txt"))
+            using (StreamWriter fileout =
+        File.AppendText("c:/users/jey/documents/visual studio 2015/Projects/db-emulation-prototype/db-emulation-prototype/db.txt"))
             {
 
                 foreach (string line in lines)
