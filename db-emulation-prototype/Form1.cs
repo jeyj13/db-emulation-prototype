@@ -85,6 +85,15 @@ namespace db_emulation_prototype
             lstOut.Items.Clear();
             read_data();
         }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+
+        }
+        public void find_entry(string e)
+        {
+
+        }
     }
 
 }

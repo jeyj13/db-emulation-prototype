@@ -33,6 +33,8 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtInfo1 = new System.Windows.Forms.TextBox();
             this.lstOut = new System.Windows.Forms.ListBox();
+            this.btnFind = new System.Windows.Forms.Button();
+            this.txtFind = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnSave
@@ -78,11 +80,30 @@
             this.lstOut.Size = new System.Drawing.Size(218, 173);
             this.lstOut.TabIndex = 4;
             // 
+            // btnFind
+            // 
+            this.btnFind.Location = new System.Drawing.Point(438, 313);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(75, 23);
+            this.btnFind.TabIndex = 5;
+            this.btnFind.Text = "Find";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
+            // 
+            // txtFind
+            // 
+            this.txtFind.Location = new System.Drawing.Point(425, 277);
+            this.txtFind.Name = "txtFind";
+            this.txtFind.Size = new System.Drawing.Size(100, 20);
+            this.txtFind.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(654, 364);
+            this.Controls.Add(this.txtFind);
+            this.Controls.Add(this.btnFind);
             this.Controls.Add(this.lstOut);
             this.Controls.Add(this.txtInfo1);
             this.Controls.Add(this.txtName);
@@ -102,6 +123,8 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtInfo1;
         private System.Windows.Forms.ListBox lstOut;
+        private System.Windows.Forms.Button btnFind;
+        private System.Windows.Forms.TextBox txtFind;
     }
 }
 
