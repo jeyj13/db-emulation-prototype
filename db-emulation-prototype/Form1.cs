@@ -95,6 +95,7 @@ namespace db_emulation_prototype
             int counter = 0;
             
             string line;
+            string oldline = "";
             string findtext = txtFind.Text;
             System.IO.StreamReader filein =
             new System.IO.StreamReader("c:/users/jey/documents/visual studio 2015/Projects/db-emulation-prototype/db-emulation-prototype/db.txt");
@@ -104,6 +105,13 @@ namespace db_emulation_prototype
                 {
 
                     lstOut.Items.Add(line);
+                    oldline = line;
+                    counter++;
+                }
+                else if(0 == string.Compare(oldline, findtext, true))
+                {
+                    lstOut.Items.Add(line);
+                    oldline = line;
                     counter++;
                 }
             }
