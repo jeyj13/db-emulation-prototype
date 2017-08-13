@@ -88,11 +88,26 @@ namespace db_emulation_prototype
 
         private void btnFind_Click(object sender, EventArgs e)
         {
-
+            find_entry();
         }
-        public void find_entry(string e)
+        public void find_entry()
         {
+            int counter = 0;
+            
+            string line;
+            string findtext = txtFind.Text;
+            System.IO.StreamReader filein =
+            new System.IO.StreamReader("c:/users/jey/documents/visual studio 2015/Projects/db-emulation-prototype/db-emulation-prototype/db.txt");
+            while ((line = filein.ReadLine()) != null)
+            {
+                if (0 == string.Compare(line, findtext, true))
+                {
 
+                    lstOut.Items.Add(line);
+                    counter++;
+                }
+            }
+            filein.Close();
         }
     }
 
